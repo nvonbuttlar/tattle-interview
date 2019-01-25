@@ -7,11 +7,17 @@ import Main from './components/Main.js'
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <Side/>
-        <Main/>
+
+      <div className="app-container">
+        <div className="header-container">
+          <Header/>
+        </div>
+        <div className="main-container">
+          <Side/>
+          <Main/>
+        </div>
       </div>
+
     );
   }
 }

@@ -1,1 +1,24 @@
 
+.app-container {
+}
+
+.header-container {
+  margin: 10px 25px 10px 25px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  margin: 10px;
+}
+
+.side {
+  margin: 10px;
+}
+
+
+
+
